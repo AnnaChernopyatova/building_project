@@ -1,0 +1,153 @@
+body {
+  font-family: "TTHoves-Regular";
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.mainPage-main {
+  margin-left: 10vw;
+  padding-top: 2vw;
+}
+
+.body-main {
+  margin: 0%;
+}
+
+.map-container__map {
+  width: 100%;
+  height: 100%;
+  border: 0; 
+  margin: 0;
+}
+
+.contacts-main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: 10vh 0 10vh 10vw;
+  padding-top: 2vw;
+  min-height: 60vh;
+}
+
+.contacts-main__text {
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.contacts-main__map-container {
+  grid-column: 2/3;
+}
+
+.btn-feedback {
+  margin-top: 1vw;
+  background-color: #333;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 1.5vw;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-family: "TTHoves-Regular";
+  width: 40%;
+}
+
+.email-link {
+  text-decoration: none;
+  font-family: "TTHoves-Regular";
+  color: #333;
+}
+
+.bold-text {
+  font-family: "TTHoves-Bold";
+}
+
+.btn-feedback:hover {
+  cursor: pointer;
+}
+
+.title {
+  font-family: "TTHoves-Bold", sans-serif;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 4vw;
+}
+
+.title_light {
+  font-family: "TTHoves-Light", sans-serif;
+  color: #BDBDBD;
+  text-transform: uppercase;
+  font-size: 4vw;
+  font-weight: lighter;
+}
+
+@media screen and (max-width:540px){
+  .title{
+    font-size: 7vw;
+  }
+
+  .title_light{
+    font-size: 7vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .btn-feedback {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contacts-main__text__title {
+    padding: 0 5vw;
+}
+  .contacts-main {
+    margin: 0;
+  }
+
+  .contacts-main__map-container {
+    margin-top: 5vw;
+  }
+
+  .contacts-main__text {
+    text-align: center;
+  }
+
+  .contacts-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+  }
+
+  .btn-feedback {
+    margin-bottom: 1rem;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@font-face {
+  font-family: "TTHoves-Bold";
+  src: url("../fonts/TTHoves-Bold.eot");
+  src: url("../fonts/TTHoves-Bold.woff") format("woff"), url("../fonts/TTHoves-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "TTHoves-Light";
+  src: url("../fonts/TTHoves-Light.eot");
+  src: url("../fonts/TTHoves-Light.woff") format("woff"), url("../fonts/TTHoves-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "TTHoves-Regular";
+  src: url("../fonts/TTHoves-Regular.eot");
+  src: url("../fonts/TTHoves-Regular.woff") format("woff"), url("../fonts/TTHoves-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}

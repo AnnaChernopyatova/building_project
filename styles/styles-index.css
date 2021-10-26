@@ -1,0 +1,490 @@
+.mainPage-main {
+  padding-right: 10vw;
+}
+
+.mainPage__firstBlock {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  margin-bottom: 8vw;
+}
+
+.btnAbout {
+  margin-bottom: 15px;
+}
+
+.mainPage__firstBlock__text {
+  grid-column: 1/2;
+  padding-top: 16vw;
+  font-size: 1.1vw;
+}
+
+.mainPage__firstBlock__photo {
+  grid-column: 2/3;
+  position: relative;
+}
+
+.mainPage__firstBlock__btn {
+  border: 1px solid #F2F2F2;
+  padding: 0.5vw;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+.mainPage__firstBlock__btn:hover {
+  background-color: #F9F9F9;
+  border: 1px solid #F2F2F2;
+}
+
+.mainPage__firstBlock__btn:focus {
+  background-color: #F9F9F9;
+  outline: none;
+}
+
+.mainPage__secondBlock {
+  background-color: #FBFBFB;
+  padding: 2vw 5vw 0 5vw;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.changeProject {
+  outline: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.btnBack {
+  display: inline;
+}
+
+.pageNumber {
+  color: #BDBDBD;
+}
+
+.projectPhoto {
+  width: 100%;
+  height: auto;
+}
+
+.pageNumber {
+  font-size: 1.5vw;
+}
+
+.btnWhite {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  padding: 2vw 3.5vw;
+  text-transform: uppercase;
+  color: #333;
+  background-color: #FFF;
+}
+
+.mainPage__Block__title {
+  color: #BDBDBD;
+  font-size: 2.5vw;
+}
+
+@media screen and (max-width: 550px) {
+  .mainPage__Block__title {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .mainPage__Block__title {
+    font-size: 4vw;
+  }
+}
+
+.mainPage__secondBlock__title,
+.btnWhite,
+.mainPage__secondBlock__text {
+  font-family: "TTHoves-Light", sans-serif;
+  font-weight: lighter;
+}
+
+.mainPage__secondBlock__images {
+  align-items: center;
+  grid-column: 1/2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  gap: 2vw;
+}
+
+.mainPage__secondBlock__images__first {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  width: 100%;
+}
+
+.mainPage__secondBlock__images__third {
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.slider__items {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  max-height: 100%;
+  overflow-x: hidden;
+}
+
+.slider__item {
+  min-width: 100%;
+  max-height: 50vw;
+}
+
+.slider__item img {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainPage__firstBlock__btn {
+  margin: 4vw 0;
+}
+
+.mainPage__secondBlock__title {
+  font-size: 3vw;
+}
+
+.mainPage__secondBlock__images img {
+  max-width: 100%;
+}
+
+.mainPage__secondBlock__images__second {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  margin-bottom: -20px;
+  height: 15vw;
+  width: 100%;
+}
+
+.mainPage__secondBlock__about {
+  grid-column: 2/3;
+  margin-left: 2vw;
+}
+
+.mainPage__thirdBlock__title {
+  margin-top: 7vh;
+}
+
+.mainPage__thirdBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4vh;
+}
+
+.mainPage__thirdBlock__Goal {
+  display: flex;
+}
+
+.mainPage__thirdBlock__img {
+  height: 10vh;
+  margin-right: 14px;
+}
+
+.mainPage__thirdBlock__textOne {
+  min-width: 20vw;
+  max-width: 25vw;
+  margin: 0%;
+}
+
+.mainPage__thirdBlock__textTwo {
+  min-width: 30vw;
+  max-width: 35vw;
+  margin: 0%;
+}
+
+.mainPage__fourthBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mainPage__fourthBlock__imgOneTwo {
+  width: 38vw;
+  margin-bottom: 15px;
+}
+
+.mainPage__fourthBlock__imgThree {
+  width: 17vw;
+}
+
+.mainPage__fourthBlock__imgFour {
+  width: 29vw;
+}
+
+.mainPage__fourthBlock__imgFive {
+  width: 23vw;
+}
+
+.mainPage__fourthBlock__img_wrap {
+  position: relative;
+}
+
+.mainPage__fourthBlock__img_wrap:hover .mainPage__fourthBlock__descriptionOneTwo {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mainPage__fourthBlock__img_wrap:hover .mainPage__fourthBlock__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mainPage__fourthBlock__descriptionOneTwo {
+  position: absolute;
+  top: 0%;
+  bottom: 15px;
+  left: 0%;
+  right: 0;
+  padding-left: 3vw;
+  background: rgba(36, 36, 36, 0.72);
+  color: #FFF;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.mainPage__fourthBlock__description {
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  left: 0%;
+  right: 0;
+  padding-left: 3vw;
+  background: rgba(36, 36, 36, 0.72);
+  color: #FFF;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.mainPage__fourthBlock__description__title {
+  font-family: "TTHoves-Bold", sans-serif;
+  font-size: 3.5vw;
+  margin-bottom: 0;
+  margin-top: 2vh;
+}
+
+.mainPage__fourthBlock__description__text {
+  margin-top: 0;
+  display: flex;
+}
+
+.mainPage__fourthBlock__description__link {
+  text-decoration: none;
+  font-size: 1.3vw;
+  color: #FFF;
+  align-self: flex-start;
+}
+
+.mainPage__fourthBlock__description__arrow {
+  position: relative;
+  top: 0.8vh;
+}
+
+.mainPage__fourthBlock__button {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+}
+
+.btnBlack {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  padding: 2vw 3.5vw;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #333;
+  font-size: smaller;
+  margin-top: 15px;
+  margin-right: 0px;
+  clear: left;
+  float: left;
+}
+
+.btnBlack::after {
+  clear: both;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.contacts__form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_form__item {
+  padding-bottom: 20px;
+}
+
+.contact_form__input {
+  background: #F3F3F3;
+  border: none;
+  padding: 10px 0 10px 10px;
+}
+
+.contact_form__text {
+  font-size: 12px;
+}
+
+.comment {
+  resize: vertical;
+}
+
+.checkbox__input {
+  margin-right: 5px;
+}
+
+.checkbox__label {
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+
+.submit_button {
+  background: #333;
+  color: #FFF;
+  border-radius: 5px;
+  height: 60px;
+  width: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .mainPage__secondBlock {
+    display: block;
+    max-width: 100%;
+    background-color: #FFF;
+    padding: 0 0 5vw 0;
+  }
+
+  .mainPage__secondBlock__images {
+    display: none;
+  }
+
+  .mainPage__secondBlock__title {
+    font-size: 1rem;
+  }
+
+  .mainPage__secondBlock__about {
+    width: 100%;
+  }
+
+  .mainPage__firstBlock__photo {
+    width: 70%;
+    display: flex;
+    justify-self: flex-end;
+  }
+
+  .changeProject {
+    font-size: 0.5em;
+    padding: 5px;
+  }
+
+  .contact_form {
+    background: none;
+  }
+
+  .contact_form__input {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .contact_form {
+    background: url(../images/contactsForm.png) 0 0/cover no-repeat;
+    width: 100vw;
+  }
+
+  .contact_form__input {
+    width: 45%;
+  }
+
+  .checkbox {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mainPage-main {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+  .mainPage__thirdBlock {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .mainPage__thirdBlock__Goal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mainPage__thirdBlock__textOne,
+  .mainPage__thirdBlock__textTwo {
+    min-width: 10vw;
+    max-width: 250vw;
+    margin: 0 0 0 2vw;
+  }
+
+  .mainPage__thirdBlock__img {
+    min-width: 45px;
+  }
+
+  .mainPage__fourthBlock__img_wrap-shown {
+    width: 80vw;
+  }
+
+  .mainPage__fourthBlock__imgOneTwo {
+    width: 100%;
+  }
+
+  .mainPage__fourthBlock__img_wrap-hidden {
+    display: none;
+  }
+
+  .mainPage__fourthBlock__description__title {
+    font-size: 7vw;
+  }
+
+  .mainPage__fourthBlock__description__link {
+    font-size: 2.6vw;
+  }
+
+  .mainPage__fourthBlock__description__arrow {
+    position: relative;
+    top: 1.1vh;
+  }
+}

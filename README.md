@@ -1,2 +1,1 @@
-# building_project
-Project of an adaptive site for the building company
+# f5_team2_project1

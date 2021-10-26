@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "TTHoves-Bold";
+    src: url("../fonts/TTHoves-Bold.eot");
+    src: url("../fonts/TTHoves-Bold.woff") format("woff"), url("../fonts/TTHoves-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "TTHoves-Light";
+    src: url("../fonts/TTHoves-Light.eot");
+    src: url("../fonts/TTHoves-Light.woff") format("woff"), url("../fonts/TTHoves-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "TTHoves-Regular";
+    src: url("../fonts/TTHoves-Regular.eot");
+    src: url("../fonts/TTHoves-Regular.woff") format("woff"), url("../fonts/TTHoves-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main {
+    min-height: 69vh;
+    /* 285 should be the height of your header + height of footer.*/
+}
+
+.main__titles {
+    padding: 1.5%;
+}
+
+.main__title {
+    margin-left: 12%;
+    font-family: "TT Hoves";
+}
+
+.title {
+    font-family: "TTHoves-Bold", sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+
+.title_light {
+    font-family: "TTHoves-Light", sans-serif;
+    color: #BDBDBD;
+    text-transform: uppercase;
+    font-size: 4vw;
+    font-weight: lighter;
+}
+
+@media screen and (max-width:540px) {
+    .title {
+        font-size: 7vw;
+    }
+
+    .title_light {
+        font-size: 7vw;
+    }
+}
+
+.main__title_color {
+    color: #BDBDBD;
+    font-weight: lighter;
+}
+
+.main__title_font {
+
+    font-weight: bold;
+}
+
+.main__slider {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-right: 15%;
+}
+
+.main__slider_numbers {
+    margin: 10px;
+    font-family: "TT Hoves";
+    word-spacing: 10px;
+}
+
+.main__button {
+    background-color: white;
+    margin: 1%;
+}
+
+button {
+    background-color: white;
+    border: 1px solid rgba(96, 125, 139, 0.2);
+}
+
+@media screen and (max-width:1000px) {
+    .sertificate-main {
+        text-align: center;
+    }
+
+    .main__title {
+        margin: 0;
+    }
+
+    .main__slider {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+        margin-right: 13%;
+    }
+
+    .main__slider_numbers {
+        font-family: "TT Hoves";
+    }
+
+    .main__button {
+        background-color: white;
+    }
+
+    button {
+        background-color: white;
+        border: 1px solid rgba(96, 125, 139, 0.2);
+    }
+}
+
+@font-face {
+    font-family: "TTHoves-Bold";
+    src: url("../fonts/TTHoves-Bold.eot");
+    src: url("../fonts/TTHoves-Bold.woff") format("woff"), url("../fonts/TTHoves-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "TTHoves-Light";
+    src: url("../fonts/TTHoves-Light.eot");
+    src: url("../fonts/TTHoves-Light.woff") format("woff"), url("../fonts/TTHoves-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "TTHoves-Regular";
+    src: url("../fonts/TTHoves-Regular.eot");
+    src: url("../fonts/TTHoves-Regular.woff") format("woff"), url("../fonts/TTHoves-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
